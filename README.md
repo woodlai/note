@@ -1,7 +1,7 @@
 # [Linux](/LINUX.md)
 
-# [NodeJs](/NODEJS)
+# [NodeJs](/NODEJS.md)
 
-# [Python](/PYTHON)
+# [Python](/PYTHON.md)
 
-# [ZeroTier](/ZEROTIER)
+# [ZeroTier](/ZEROTIER.md)
