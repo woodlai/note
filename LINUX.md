@@ -37,15 +37,3 @@
 ### server
 
 ### client
-
-## Docker
-
-### install
-
-### image
-
-### container
-
-### port
-
-### cloudflare
