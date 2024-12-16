@@ -31,8 +31,3 @@
 ### 穷爸爸：我可买不起
 
 ### 富爸爸：我怎么才可以买得起
-
-```javascript {cmd="node"}
-const date = Date.now();
-console.log(111, date.toString());
-```
