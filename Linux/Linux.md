@@ -8,7 +8,7 @@
 
 ### systemctl
 
-### [vim](/Linux/Vim.md)
+### [vim](./Vim.md)
 
 ## SSL
 
