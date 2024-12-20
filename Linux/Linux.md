@@ -1,17 +1,11 @@
 # Linux Ubuntu 22.04
 
-## Install
+## [install](https://www.runoob.com/linux/linux-install.html)
 
-## Command
+## [ssh](./ssh.md)
 
-### apt
+## [vim](./vim.md)
 
-### systemctl
+## apt
 
-### [vim](./Vim.md)
-
-## SSL
-
-### server
-
-### client
+## systemctl
