@@ -1,13 +1,13 @@
 <https://woodlai.github.io/note/>
 
-# [Book](/Book.md)
+# [Book](/Book/Book.md)
 
-# [Linux](/LINUX.md)
+# [Linux](/Linux/Linux.md)
 
-# [Docker](/DOCKER.md)
+# [Docker](/Docker/Docker.md)
 
-# [NodeJs](/NODEJS.md)
+# [Nodejs](/Nodejs/Nodejs.md)
 
-# [Python](/PYTHON.md)
+# [Python](/Python/Python.md)
 
-# [ZeroTier](/ZEROTIER.md)
+# [ZeroTier](/ZeroTier/ZeroTier.md)
