@@ -23,7 +23,6 @@
 
 #### windows
 
-- 打开 powershell/cmd
 - 输入以下命令来生成 SSH 密钥对
   `ssh-keygen -t rsa -b 2048 -C "your_email@example.com"`
   按照提示操作，选择密钥文件存储位置，默认情况下将会存储在 `C:\Users\YourUsername\.ssh\id_rsa 和 C:\Users\YourUsername\.ssh\id_rsa.pub`
