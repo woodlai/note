@@ -1,4 +1,4 @@
-# Vim
+# vim
 
 ## 命令模式（Command Mode）
 
