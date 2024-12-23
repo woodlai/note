@@ -1,18 +1,18 @@
 # ssh
 
-## 安装 ssh：
+## install：
 
 ```
 yum install ssh
 ```
 
-## 启动 ssh：
+## start：
 
 ```
 service sshd start
 ```
 
-## 登录远程服务器：
+## login：
 
 ### Password（密码）
 
