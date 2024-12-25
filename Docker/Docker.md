@@ -21,11 +21,13 @@
 `-d` 则让容器运行在后台
 `-p` 端口映射：主机端口：容器端口
 `-v` 挂载主机目录：主机目录：容器目录
+`--env` 设置环境变量
 
 ```
 docker run -itd \
     -p 80:3000\
     -v /sources/node:/sources \
+    --env N8N_SECURE_COOKIE=false
     --name node \
     node:16.20.0
 ```
