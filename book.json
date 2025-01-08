@@ -1,0 +1,29 @@
+{
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "back-to-top-button",
+        "chapter-fold",
+        "splitter",
+        "pageview-count",
+        "summary",
+        "github",
+        "code",
+        "todo",
+        "theme-comscore"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/woodlai/note.git"
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "todo": {
+            "label": "TODO",
+            "pattern": "^\\s*TODO",
+            "file": "./Todo/Todo.md"
+        }
+    }
+}
