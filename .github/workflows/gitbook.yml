@@ -12,17 +12,27 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: node
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "10.20.0" # 设置你的 Node.js 版本
+
+      - name: Install GitBook CLI
         run: |
           node -v
-          ls -a
+          npm install gitbook-cli -g
 
-      - name: gitbook
+      - name: init GitBook
         run: |
-          npm install gitbook-cli@2.1.2 --global
           gitbook init
+
+      - name: install GitBook
+        run: |
           gitbook install
-          gitbook build
+
+      - name: build GitBook
+        run: |
+          gitbook build --verbose
 
       - name: deploy
         run: |
