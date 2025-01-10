@@ -21,6 +21,7 @@ jobs:
         run: |
           npm install gitbook-cli@2.1.2 --global
           gitbook init
+          gitbook install
           gitbook build
 
       - name: deploy
