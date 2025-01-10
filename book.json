@@ -1,5 +1,7 @@
 {
     "plugins": [
+        "-sharing",
+        "-livereload",
         "-lunr",
         "-search",
         "search-pro",
@@ -7,11 +9,14 @@
         "chapter-fold",
         "splitter",
         "pageview-count",
+        "theme-comscore",
         "summary",
         "github",
         "code",
         "todo",
-        "theme-comscore"
+        "flexible-alerts",
+        "mermaid-gb3",
+        "tbfed-pagefooter"
     ],
     "pluginsConfig": {
         "github": {
@@ -24,6 +29,11 @@
             "label": "TODO",
             "pattern": "^\\s*TODO",
             "file": "Todo/Todo.md"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright woodlai",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 }

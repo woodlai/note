@@ -1,4 +1,5 @@
-name: cloudflare_tunnel_ssh
+```
+name: cloudflare_ssh
 
 on:
   push:
@@ -31,3 +32,4 @@ jobs:
         env:
           CMD: '"cd /sources; test -d ./dnspod-shell-master&& ls -l ./dnspod-shell-master||echo "Directory not found""'
         run: ssh -p 22 -o StrictHostKeyChecking=no -o ProxyCommand="/usr/local/bin/cloudflared access ssh --hostname %h" ${{ vars.USER }}@${{ vars.HOST }} ${{env.CMD}}
+```

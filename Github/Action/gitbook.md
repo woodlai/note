@@ -1,3 +1,4 @@
+```
 name: Deploy via SSH
 
 on:
@@ -15,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "10.20.0" # 设置你的 Node.js 版本
+          node-version: "10.20.0" # 设置 Node.js 版本
 
       - name: Install GitBook CLI
         run: |
@@ -51,3 +52,4 @@ jobs:
           git add .
           git commit -m "deploy by action"
           git push origin gitbook --force
+```
