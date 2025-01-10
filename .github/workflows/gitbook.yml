@@ -15,11 +15,10 @@ jobs:
       - name: node
         run: |
           node -v
-          nvm -v
 
       - name: gitbook
         run: |
-          npm install gitbook-cli -g
+          npm install gitbook-cli@2.1.2 --global
           gitbook init
           gitbook build
 
