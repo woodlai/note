@@ -10,7 +10,8 @@
         "summary",
         "github",
         "code",
-        "todo"
+        "todo",
+        "theme-comscore"
     ],
     "pluginsConfig": {
         "github": {
@@ -22,7 +23,7 @@
         "todo": {
             "label": "TODO",
             "pattern": "^\\s*TODO",
-            "file": "./Todo/Todo.md"
+            "file": "Todo/Todo.md"
         }
     }
 }
