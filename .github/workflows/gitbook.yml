@@ -50,4 +50,4 @@ jobs:
           git branch -m gitbook
           git add .
           git commit -m "deploy by action"
-          git push origin gitbook
+          git push origin gitbook --force
