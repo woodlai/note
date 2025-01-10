@@ -41,7 +41,7 @@ jobs:
           git config --global user.name "woodlai"
           git config --global user.email "laishouqi@gmail.com"
           git init
-          git remote add origin https://github.com/woodlai/note.git
+          git remote add origin git@github.com:woodlai/note.git
           git branch -m gitbook
           git add .
           git commit -m "deploy by action"
