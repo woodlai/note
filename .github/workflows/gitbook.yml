@@ -15,6 +15,7 @@ jobs:
       - name: node
         run: |
           node -v
+          ls -a
 
       - name: gitbook
         run: |
