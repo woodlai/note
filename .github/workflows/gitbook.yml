@@ -1,0 +1,29 @@
+name: Deploy via SSH
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: gitbook
+        run: |
+          npm install gitbook-cli -g
+          gitbook init
+          gitbook build
+
+      - name: deploy
+        run: |
+          cd _book
+          git init
+          git remote add origin https://github.com/woodlai/note.git
+          git branch -m gitbook
+          git add .
+          git commit -m "deploy by action"
+          git push origin gitbook
