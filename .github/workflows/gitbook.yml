@@ -38,6 +38,8 @@ jobs:
       - name: deploy
         run: |
           cd _book
+          git config --global user.name "woodlai"
+          git config --global user.email "laishouqi@gmail.com"
           git init
           git remote add origin https://github.com/woodlai/note.git
           git branch -m gitbook
