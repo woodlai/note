@@ -35,6 +35,11 @@ jobs:
         run: |
           gitbook build --verbose
 
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.UBUNTU }}
+
       - name: deploy
         run: |
           cd _book
