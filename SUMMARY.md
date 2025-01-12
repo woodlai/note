@@ -4,6 +4,7 @@
 - [Book](Book/Book.md)
 - [富爸爸，穷爸爸](Book/富爸爸，穷爸爸.md)
 - [排毒吧！大脑](Book/排毒吧！大脑.md)
+- [薛定谔的猫](Book/薛定谔的猫.md)
 
 ## Cloudflare
 

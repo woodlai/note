@@ -16,7 +16,8 @@
         "todo",
         "flexible-alerts",
         "mermaid-gb3",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "katex"
     ],
     "pluginsConfig": {
         "github": {
