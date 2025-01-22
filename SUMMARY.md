@@ -33,9 +33,16 @@
 - [Ssh](Linux/ssh.md)
 - [Vim](Linux/vim.md)
 
+## Math
+
+- [Math](Math/Math.md)
+
 ## Nodejs
 
 - [Nodejs](Nodejs/Nodejs.md)
+
+## Shader
+
 
 ## Todo
 
