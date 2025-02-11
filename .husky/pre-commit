@@ -1,2 +1,1 @@
-#!/usr/bin/env sh
-node -v
+npm test
