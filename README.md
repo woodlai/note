@@ -18,4 +18,6 @@
 
 # [CocosCreator](./CocosCreator/CocosCreator.md)
 
+# [Math](./Math/Math.md)
+
 # [Todo](./Todo/Todo.md)
